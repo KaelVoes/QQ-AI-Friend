@@ -1,1 +1,1 @@
-# QQ-AI-
+# QQ-AI-Friend
