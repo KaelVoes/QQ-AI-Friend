@@ -106,7 +106,7 @@ QQ_AI/
 编辑 `data/config.json`：
 ```json
 {
-  "ws_url": "ws://127.0.0.1:3001/?access_token=123456",
+  "ws_url": "ws://127.0.0.1:3001/?access_token=password",
   "ollama_url": "http://127.0.0.1:11434/api/chat",
   "model_name": "模型",
   "master_qq": "你的QQ号",
