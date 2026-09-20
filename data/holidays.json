@@ -1,0 +1,34 @@
+{
+  "fixed_holidays": [
+    {"date": "01-01", "name": "元旦", "days": 3, "mood": 3, "note": "放假三天"},
+    {"date": "02-14", "name": "情人节", "days": 1, "mood": 2, "note": "路上都是情侣"},
+    {"date": "05-01", "name": "劳动节", "days": 5, "mood": 3, "note": "放假五天"},
+    {"date": "05-20", "name": "520", "days": 1, "mood": 1, "note": "到处都在表白"},
+    {"date": "06-01", "name": "儿童节", "days": 1, "mood": 1, "note": "大学生也想过"},
+    {"date": "09-10", "name": "教师节", "days": 1, "mood": 1, "note": "给老师发祝福"},
+    {"date": "10-01", "name": "国庆节", "days": 7, "mood": 4, "note": "放假七天"},
+    {"date": "11-11", "name": "双十一", "days": 1, "mood": 1, "note": "购物节，想买点东西"},
+    {"date": "12-12", "name": "双十二", "days": 1, "mood": 1, "note": "又一波购物节"},
+    {"date": "12-25", "name": "圣诞节", "days": 1, "mood": 2, "note": "学校有装饰"},
+
+    {"date": "01-15", "name": "寒假", "days": 45, "mood": 2, "note": "放寒假了，在家躺平", "type": "break"},
+    {"date": "07-01", "name": "暑假", "days": 62, "mood": 3, "note": "放暑假了，超爽", "type": "break"}
+  ],
+  "lunar_holidays": [
+    {"date": "2026-02-17", "name": "春节", "days": 7, "mood": 5, "note": "回家过年"},
+    {"date": "2027-02-06", "name": "春节", "days": 7, "mood": 5, "note": "回家过年"},
+    {"date": "2028-01-26", "name": "春节", "days": 7, "mood": 5, "note": "回家过年"},
+
+    {"date": "2026-04-05", "name": "清明节", "days": 3, "mood": 1, "note": "回家祭祖"},
+    {"date": "2027-04-05", "name": "清明节", "days": 3, "mood": 1, "note": "回家祭祖"},
+
+    {"date": "2026-06-19", "name": "端午节", "days": 3, "mood": 3, "note": "吃粽子"},
+    {"date": "2027-06-09", "name": "端午节", "days": 3, "mood": 3, "note": "吃粽子"},
+
+    {"date": "2026-08-19", "name": "七夕", "days": 1, "mood": 2, "note": "情人节"},
+    {"date": "2027-08-08", "name": "七夕", "days": 1, "mood": 2, "note": "情人节"},
+
+    {"date": "2026-09-25", "name": "中秋节", "days": 3, "mood": 3, "note": "吃月饼"},
+    {"date": "2027-09-15", "name": "中秋节", "days": 3, "mood": 3, "note": "吃月饼"}
+  ]
+}

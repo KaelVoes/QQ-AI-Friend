@@ -1,0 +1,99 @@
+{
+  "_comment": "李欣然机器人配置文件，改完重启生效",
+  "proactive": {
+    "_comment": "主动消息：她主动找你聊天",
+    "interval_check": 60,
+    "interval_check_comment": "每隔多少秒检查一次要不要主动发消息",
+    "cooldown_min": 3600,
+    "cooldown_min_comment": "两次主动消息之间最少间隔（秒）",
+    "cooldown_max": 14400,
+    "cooldown_max_comment": "两次主动消息之间最多间隔（秒）",
+    "active_hour_start": 8,
+    "active_hour_start_comment": "几点之后才会主动发消息",
+    "active_hour_end": 23,
+    "active_hour_end_comment": "几点之前会主动发消息"
+  },
+  "nuisance": {
+    "_comment": "骚扰消息：她发没头没脑的消息",
+    "enabled": true,
+    "enabled_comment": "是否启用骚扰消息",
+    "check_interval": 60,
+    "check_interval_comment": "每隔多少秒检查一次要不要发",
+    "chance_per_check": 0.08,
+    "chance_per_check_comment": "每次检查触发的概率（0-1）",
+    "cooldown_min": 600,
+    "cooldown_min_comment": "两次骚扰消息之间最少间隔（秒）",
+    "cooldown_max": 3600,
+    "cooldown_max_comment": "两次骚扰消息之间最多间隔（秒）",
+    "max_len": 15,
+    "max_len_comment": "骚扰消息最多多少字"
+  },
+  "sleep": {
+    "_comment": "睡觉时间：几点睡几点起",
+    "enabled": true,
+    "enabled_comment": "是否启用睡觉机制",
+    "start_hour": 23,
+    "start_hour_comment": "几点开始想睡觉",
+    "end_hour": 7,
+    "end_hour_comment": "几点起床",
+    "late_night_chance": 0.25,
+    "late_night_chance_comment": "熬夜概率（0-1），越高越容易熬夜",
+    "late_night_start_min": 1,
+    "late_night_start_min_comment": "熬夜最少到几点",
+    "late_night_start_max": 3,
+    "late_night_start_max_comment": "熬夜最多到几点"
+  },
+  "fatigue": {
+    "_comment": "疲劳值系统：越聊越累",
+    "init": 20,
+    "init_comment": "初始疲劳值",
+    "max": 100,
+    "max_comment": "疲劳值上限",
+    "base_rate": 3,
+    "base_rate_comment": "每小时基础涨多少疲劳",
+    "late_night_rate": 8,
+    "late_night_rate_comment": "熬夜时每小时涨多少疲劳",
+    "afternoon_rate": 5,
+    "afternoon_rate_comment": "下午每小时多涨多少",
+    "sleep_recover": 12,
+    "sleep_recover_comment": "睡一觉恢复多少疲劳",
+    "wakeup_penalty": 8,
+    "wakeup_penalty_comment": "被吵醒一次加多少疲劳"
+  },
+  "chat": {
+    "_comment": "聊天历史配置",
+    "max_history_len": 40,
+    "max_history_len_comment": "对话历史最多保留多少条消息（含示例）",
+    "max_memory_items": 10,
+    "max_memory_items_comment": "每条长期记忆最多保留多少条"
+  },
+  "wallet": {
+    "_comment": "钱包系统：每月生活费",
+    "monthly_income": 2500,
+    "monthly_income_comment": "每月生活费（元）",
+    "daily_breakfast": [
+      6,
+      12
+    ],
+    "daily_breakfast_comment": "早餐花费范围（元）",
+    "daily_lunch": [
+      15,
+      30
+    ],
+    "daily_lunch_comment": "午餐花费范围（元）",
+    "daily_dinner": [
+      15,
+      30
+    ],
+    "daily_dinner_comment": "晚餐花费范围（元）"
+  },
+  "affinity": {
+    "_comment": "亲密度系统：聊多了更亲近",
+    "init": 10,
+    "init_comment": "新用户初始亲密度",
+    "increase_per_chat": 0.5,
+    "increase_per_chat_comment": "每聊一句加多少亲密度",
+    "max": 100,
+    "max_comment": "亲密度上限"
+  }
+}
